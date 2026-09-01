@@ -51,11 +51,11 @@ Build deep-learning understanding from first principles over 20 weeks: implement
 - Created the public `dl-from-scratch` repository, scaffolded the project, created the Python virtual environment, and configured the initial Git workflow.
 - Configured GitHub SSH authentication and established the public daily-log protocol for the 20-week project.
 
-### Day 002 · YYYY-MM-DD · Title
+### Day 002 · 2026-09-01 · Zero-shot CLIP
 
-- What I built:
-- What I learned:
-- Evidence / result:
+- What I built: Zero-shot clip classifier of my own images. Giving the probability scores for the matching description.
+- What I learned: I learned how to use PIL , Transformer library and how to download any opensource model from huggigface. How to load image and use processor.
+- Evidence / result: Output similarity matrix.
 
 ### Day 003 · YYYY-MM-DD · Title
 
@@ -66,7 +66,7 @@ Build deep-learning understanding from first principles over 20 weeks: implement
 ## Progress
 
 - [x] Day 001 — Environment
-- [ ] Day 002
+- [ ] Day 002 - Zero-shot CLIP
 - [ ] Day 003
 - [ ] Day 004
 - [ ] Day 005
