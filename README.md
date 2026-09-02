@@ -57,17 +57,17 @@ Build deep-learning understanding from first principles over 20 weeks: implement
 - What I learned: I learned how to use PIL , Transformer library and how to download any opensource model from huggigface. How to load image and use processor.
 - Evidence / result: Output similarity matrix.
 
-### Day 003 · YYYY-MM-DD · Title
+### Day 003 · 2026-09-02 · Title
 
-- What I built:
-- What I learned:
-- Evidence / result:
+- What I built: Created 3-4 functions and classes
+- What I learned: I got understanding of funtions how mutable variables and be fixed, positional and key-word args, nonlocal variable, timeit annotation using @wraps annotation. How to create classes self keyword and instance and class attributes.
+- Evidence / result: functions.py, ClassesExcercise.py files
 
 ## Progress
 
 - [x] Day 001 — Environment
 - [ ] Day 002 - Zero-shot CLIP
-- [ ] Day 003
+- [ ] Day 003 - Excercises Functions and Classes
 - [ ] Day 004
 - [ ] Day 005
 - [ ] Day 006
