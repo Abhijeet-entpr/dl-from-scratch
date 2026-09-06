@@ -63,12 +63,18 @@ Build deep-learning understanding from first principles over 20 weeks: implement
 - What I learned: I got understanding of funtions how mutable variables and be fixed, positional and key-word args, nonlocal variable, timeit annotation using @wraps annotation. How to create classes self keyword and instance and class attributes.
 - Evidence / result: functions.py, ClassesExcercise.py files
 
+### Day 003 · 2026-09-04 · Dunder methods, Operator overloading, Generator, iterator and Comprehension
+
+- What I built: Vec2 class
+- What I learned: I got understanding of dunder funtions , list, set and dict compreshension, diffrence between Comprehensions and generators.
+- Evidence / result: Vec2.py, ListCompreshension.py
+
 ## Progress
 
 - [x] Day 001 — Environment
 - [ ] Day 002 - Zero-shot CLIP
 - [ ] Day 003 - Excercises Functions and Classes
-- [ ] Day 004
+- [ ] Day 004 - Dunder, Comprehension and Generators
 - [ ] Day 005
 - [ ] Day 006
 - [ ] Day 007
