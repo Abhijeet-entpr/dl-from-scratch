@@ -72,9 +72,9 @@ Build deep-learning understanding from first principles over 20 weeks: implement
 ## Progress
 
 - [x] Day 001 — Environment
-- [ ] Day 002 - Zero-shot CLIP
-- [ ] Day 003 - Excercises Functions and Classes
-- [ ] Day 004 - Dunder, Comprehension and Generators
+- [x] Day 002 - Zero-shot CLIP
+- [x] Day 003 - Excercises Functions and Classes
+- [x] Day 004 - Dunder, Comprehension and Generators
 - [ ] Day 005
 - [ ] Day 006
 - [ ] Day 007

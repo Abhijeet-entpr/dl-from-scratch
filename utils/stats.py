@@ -7,6 +7,13 @@ class RunningStats:
         self._M2 = 0.0
 
     def update(self, x: float)-> None:
+        """Update running statistics with a new data sample.
+
+    Parameters
+    ----------
+    x : float
+        The new numeric sample to incorporate into the running stats.
+    """
         self._count += 1
         delta = x - self._mean
         self._mean += delta / self._count

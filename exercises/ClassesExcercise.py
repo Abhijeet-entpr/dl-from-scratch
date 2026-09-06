@@ -85,7 +85,7 @@ if __name__ == "__main__":
     with Timer() as t:
         time.sleep(0.01)
 
-    assert t.elapsed_time >= 0.01, f"Timer failed: elapsed {t.elapsed}s"
+    assert t.elapsed_time >= 0.01, f"Timer failed: elapsed {t.elapsed_time}s"
 
     print("All 4 assertions passed successfully!")
     print(stats)
