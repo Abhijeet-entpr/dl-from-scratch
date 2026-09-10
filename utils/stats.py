@@ -14,7 +14,7 @@ class RunningStats:
         x : float
          The new numeric sample to incorporate into the running stats.
         """
-        breakpoint()
+        #breakpoint()
         self._count += 1
         delta = x - self._mean
         self._mean += delta / self._count
@@ -51,3 +51,30 @@ class Timer:
         end_time = time.perf_counter()
         self.elapsed_time = end_time - self.start_time
 
+import math
+
+import math
+
+
+def standardize(x: list[float]) -> list[float]:
+    """Standardize a list of floats to zero mean and unit variance (Z-score)."""
+    if not x:
+        return []
+
+    n = len(x)
+    if n == 1:
+        return [0.0]
+
+    # 1. Calculate mean
+    mean = sum(x) / n
+
+    # 2. Calculate population variance & standard deviation (divide by n)
+    variance = sum((val - mean) ** 2 for val in x) / n
+    std_dev = math.sqrt(variance)
+
+    # 3. Handle zero-variance edge case
+    if std_dev == 0.0:
+        return [0.0] * n
+
+    # 4. Compute Z-scores
+    return [(val - mean) / std_dev for val in x]
